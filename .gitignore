@@ -1,0 +1,18 @@
+# Pasta de IDE's
+.idea
+.eclipse
+.vscode
+
+# Ambiente Virtual & pycache
+**/venv
+**/__pycache__
+
+# Resultados / Artefatos
+**/result*
+**/log*
+
+# Resources
+**/Data/*
+
+# APK
+/app
