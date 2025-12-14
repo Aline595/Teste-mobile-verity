@@ -6,6 +6,7 @@ ${VALIDACAO}  class=android.webkit.WebView
 *** Keywords ***
 Validar Pagina
     Wait Until Element Is Visible    ${VALIDACAO}
+    Capture Page Screenshot
     
 Acessar menu webview
     Wait Until Element Is Visible    ${MENU_WEBVIEW_ID}

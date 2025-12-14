@@ -18,6 +18,7 @@ Preencher campo input
 Validacao campo input
     [Arguments]    ${texto}
     Element Text Should Be    ${CAMPO_INPUT_RESULT}    ${texto}
+    Capture Page Screenshot
 
 Preencher flag switch
     Click Element   ${FLAG_SWITCH}
@@ -25,6 +26,7 @@ Preencher flag switch
 Validacao flag switch
     [Arguments]    ${texto}
     Element Text Should Be       ${FLAG_SWITCH_TEXTO}  ${texto}
+    Capture Page Screenshot
 
 Clicar botao
     Click Element   ${BTN_ACTIVE}
@@ -32,6 +34,7 @@ Clicar botao
 Validacao botao
     Wait Until Element Is Visible    ${VALIDACAO_BTN_1}
     Wait Until Element Is Visible    ${VALIDACAO_BTN_2}
+    Capture Page Screenshot
     Click Element   ${BTN_OK}
 
 Acessar menu formulario

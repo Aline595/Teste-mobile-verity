@@ -21,16 +21,20 @@ Preencher formulario
 
 Validacao email
     Wait Until Element Is Visible     ${VALIDACAO_EMAIL}
+    Capture Page Screenshot
    
 Validacao senha
     Wait Until Element Is Visible    ${VALIDACAO_SENHA}
+    Capture Page Screenshot
 
 Validacao de sucesso
     Wait Until Element Is Visible    ${VALIDACAO_SUCESSO}
+    Capture Page Screenshot
     Click Element   ${BTN_OK}
 
 Validacao confirmacao da senha
     Wait Until Element Is Visible    ${VALIDACAO_SENHA_CONFIRMA}
+    Capture Page Screenshot
 
 Acessar menu cadastro de usuario
     Wait Until Element Is Visible    ${MENU_LOGIN_ID}
