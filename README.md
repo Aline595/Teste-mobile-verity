@@ -3,7 +3,7 @@
 Projeto de teste utilizando  **Robot Framework + AppiumLibrary** para automação de testes mobile.
 
 
-## 🧱 Stack utilizada (OBRIGATÓRIA)
+## 🧱 Stack utilizada
 
 | Ferramenta           | Versão |
 | -------------------- | ------ |
